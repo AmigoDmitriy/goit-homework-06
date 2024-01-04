@@ -29,6 +29,13 @@ img {
   padding-bottom: 48px;
 }
 
+@media screen and (min-width: 1158px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 .link {
   position: relative;
   text-decoration: none;
