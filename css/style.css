@@ -35,6 +35,12 @@ img {
   letter-spacing: 0.02em;
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    /* Tablet devices */
+  }
+}
+
 /* Removing internal padding */
 body,
 h1,
