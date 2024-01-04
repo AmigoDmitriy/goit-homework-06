@@ -277,6 +277,21 @@ ul {
   margin-bottom: 8px;
 }
 
+@media screen and (min-width: 320px) {
+  .section-advantages {
+    /* Tablet devices */
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+  }
+  .icons-container {
+    visibility: hidden;
+  }
+  .title-three {
+    font-size: 36px;
+  }
+}
+
 .text-advantages {
   color: var(--SLATE, #434455);
   font-size: 16px;
