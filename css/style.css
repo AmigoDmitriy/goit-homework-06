@@ -23,8 +23,10 @@ img {
 }
 
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .link {
