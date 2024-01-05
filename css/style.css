@@ -529,26 +529,19 @@ ul {
   padding: 32px 16px;
 }
 
-@media screen and (min-width: 320px) {
-   
-    .portfolio-list {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .item-list {
-      min-width: 264px;
-    }
-  }
+.title-section-four {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-transform: none;
+}
+.text-section-four {
+  font-weight: 400;
+}
 
-  .title-section-four {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.5;
-    text-transform: none;
-  }
-  .text-section-four {
-    font-weight: 400;
+@media screen and (min-width: 320px) {
+  .item-list {
+    max-width: 288px;
   }
 }
 
