@@ -1052,6 +1052,9 @@ ul {
   top: 0;
   left: 0;
 
+  display: flex;
+  flex-direction: column;
+
   margin-top: 72px;
   padding: 72px 16px 40px;
 
@@ -1077,10 +1080,13 @@ ul {
 }
 
 .mobile-menu-list {
+  margin-bottom: auto;
 }
+
 .mobile-menu-item:not(:last-child) {
   margin-bottom: 40px;
 }
+
 .mobile-menu-link {
   font-size: 36px;
   font-weight: 700;
@@ -1089,12 +1095,15 @@ ul {
   text-transform: capitalize;
   color: #2e2f42;
 }
+
 .mobile-menu-link.current {
   color: #404bbf;
 }
+
 .mobile-menu-contacts.mobile-menu-item:not(:last-child) {
   margin-bottom: 24px;
 }
+
 .mobile-menu-contact {
   font-size: 20px;
   font-weight: 500;
