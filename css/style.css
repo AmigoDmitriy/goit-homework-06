@@ -534,9 +534,6 @@ ul {
     flex-direction: column;
     align-items: center;
   }
-  .item-list {
-    min-width: 288px;
-  }
   .title-section-four {
     font-size: 20px;
     font-weight: 500;
