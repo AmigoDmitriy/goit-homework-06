@@ -778,9 +778,6 @@ ul {
   .form-mail {
     flex-wrap: wrap;
   }
-  .footer-icons {
-    flex-shrink: 0;
-  }
 
   .text-footer {
     min-width: 264px;
