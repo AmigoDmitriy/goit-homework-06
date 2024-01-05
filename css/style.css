@@ -271,7 +271,7 @@ ul {
 .section-advantages-list {
   list-style-type: none;
   display: flex;
-  gap: 24px;
+  /* gap: 24px; */
 }
 
 .advantages-item {
@@ -309,6 +309,7 @@ ul {
 @media screen and (min-width: 320px) {
   .section-advantages-list {
     /* Tablet devices */
+    gap: 72px;
     flex-wrap: wrap;
   }
   .icons-container {
@@ -325,6 +326,9 @@ ul {
     min-width: 288px;
     font-weight: 500;
   }
+  .advantages-item {
+    max-width: 288px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -337,7 +341,7 @@ ul {
 @media screen and (min-width: 1158px) {
   .advantages-item {
     max-width: 264px;
-    width: calc(100%-24px * 1) / 2;
+    width: calc(100%-24px * 3) / 4;
   }
   .title-three {
     color: #2e2f42;
@@ -354,6 +358,9 @@ ul {
   }
   .icons-container {
     visibility: visible;
+  }
+  .section-advantages-list {
+    gap: 24px;
   }
 }
 
@@ -579,10 +586,17 @@ ul {
   }
 }
 
+@media screen and (min-width: 1158px) {
+  .item-list {
+    max-width: 360px;
+  }
+}
+
 /* Footer */
+
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0;
+  padding: 100px 16px;
 }
 
 .link-footer {
@@ -604,7 +618,7 @@ ul {
 .text-footer {
   color: #f4f4fd;
   letter-spacing: 0.32px;
-  max-width: 264px;
+  /* max-width: 264px; */
 }
 
 .logo-three {
@@ -678,6 +692,10 @@ ul {
 
 /* Footer form */
 
+.footer-icons {
+  margin-right: 80px;
+}
+
 .footer-form {
   margin-left: auto;
 }
@@ -710,6 +728,7 @@ ul {
   border-radius: 4px;
   color: #ffffff;
 }
+
 .button-subscribe {
   min-width: 165px;
   height: 40px;
@@ -740,21 +759,14 @@ ul {
   cursor: pointer;
 }
 
-@media screen and (min-width: 320px) {
-  .container-footer {
-    flex-direction: column;
-    align-items: center;
-  }
-  .text-footer {
-    min-width: 288px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-top: 16px;
-    margin-bottom: 72px;
+@media screen (min-width: 768px) {
+  .footer-form {
   }
 }
-@media screen and (min-width: 768px) {
-  .container-footer {
+
+@media screen and (min-width: 1158px) {
+  .footer-icons {
+    margin-right: 80px;
   }
 }
 
