@@ -530,7 +530,15 @@ ul {
 }
 
 @media screen and (min-width: 320px) {
-  .section-four {
+   
+    .portfolio-list {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .item-list {
+      min-width: 264px;
+    }
   }
 
   .title-section-four {
