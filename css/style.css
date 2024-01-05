@@ -190,6 +190,11 @@ ul {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (min-width: 768) {
+   {
+  }
+}
+
 /* Main-Section 1*/
 .one-section {
   padding: 188px 0;
@@ -333,7 +338,8 @@ ul {
 
 @media screen and (min-width: 768px) {
   .advantages-item {
-    max-width: 356px;
+    width: 356px;
+
     width: calc(100%-24px * 1) / 2;
   }
 }
