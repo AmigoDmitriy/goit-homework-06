@@ -310,7 +310,7 @@ ul {
     /* Tablet devices */
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
   }
   .icons-container {
     visibility: hidden;
@@ -510,6 +510,7 @@ ul {
 @media screen and (min-width: 320px) {
   .portfolio-list {
     flex-direction: column;
+    align-items: center;
   }
   .item-list {
     min-width: 288px;
@@ -689,22 +690,13 @@ ul {
 @media screen and (min-width: 320px) {
   .container-footer {
     flex-direction: column;
+    align-items: center;
   }
   .text-footer {
     min-width: 288px;
     margin-left: 16px;
     margin-right: 16px;
     margin-top: 16px;
-    margin-bottom: 72px;
-  }
-  .link-footer {
-    margin: 0 102px;
-  }
-  .footer-socials-icons {
-    margin-left: 102px;
-  }
-  .footer-icons-list {
-    margin-left: 40px;
     margin-bottom: 72px;
   }
 }
