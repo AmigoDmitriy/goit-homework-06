@@ -1064,6 +1064,8 @@ ul {
   position: absolute;
   top: 24px;
   right: 24px;
+  border: none;
+  background-color: #fff;
 }
 .menu-btn-icon {
 }
