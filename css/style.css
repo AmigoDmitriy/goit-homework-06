@@ -1064,6 +1064,11 @@ ul {
   position: absolute;
   top: 24px;
   right: 24px;
+
+  display: ;
+
+  border: 1px solid #e7e9fc;
+  border-radius: 50%;
   border: none;
   background-color: #fff;
 }
