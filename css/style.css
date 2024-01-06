@@ -673,6 +673,12 @@ button {
   }
 }
 
+@media only screen and (min-width: 1158px) {
+  .web-footer-container {
+    gap: 0;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .logo-block {
     max-width: 264px;
