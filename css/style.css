@@ -58,20 +58,20 @@ button {
 .section {
   /* padding-top: 120px;
   padding-bottom: 120px; */
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 @media only screen and (min-width: 768px) {
   .section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
 }
 
 @media only screen and (min-width: 1158px) {
   .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
 
