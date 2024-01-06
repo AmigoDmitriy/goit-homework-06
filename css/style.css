@@ -1123,3 +1123,7 @@ ul {
 .mobile-menu-contacts {
   margin-bottom: 48px;
 }
+
+.ghost {
+  display: none;
+}
