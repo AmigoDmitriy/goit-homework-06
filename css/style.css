@@ -8,6 +8,8 @@
   box-sizing: border-box;
 }
 
+/* Base styles */
+
 body {
   color: #434455;
   background: #fff;
@@ -72,7 +74,7 @@ img {
   }
 }
 
-/* Removing internal padding */
+/* Reset styles */
 body,
 h1,
 h2,
