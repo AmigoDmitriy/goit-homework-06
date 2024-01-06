@@ -646,7 +646,16 @@ button {
 
 .footer {
   background-color: #2e2f42;
-  padding: 100px 16px;
+  /* padding: 100px 16px; */
+  padding: 96px 0;
+  text-align: center;
+}
+
+.container-footer {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  gap: 72px;
 }
 
 .link-footer {
@@ -665,15 +674,16 @@ button {
   transition-property: color;
 }
 
-.text-footer {
-  color: #f4f4fd;
-  letter-spacing: 0.32px;
-  /* max-width: 264px; */
-}
-
 .logo-three {
   color: #f4f4fd;
   transition-property: color;
+}
+
+.text-footer {
+  color: #f4f4fd;
+  letter-spacing: 0.32px;
+  text-align: left;
+  /* max-width: 264px; */
 }
 
 .footer .logo-three:hover,
@@ -684,6 +694,11 @@ button {
 .footer .link-footer:hover,
 .footer .link-footer:focus {
   color: #fff;
+}
+
+.footer-icons {
+  justify-content: center;
+  /* margin-right: 80px; */
 }
 
 .footer-icons-list {
@@ -698,16 +713,17 @@ button {
   height: 40px;
 }
 
-.footer-socials-icons {
+.footer-socials-text {
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
+  /* display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: center; */
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .item-link-footer {
@@ -727,22 +743,11 @@ button {
   background-color: #31d0aa;
 }
 
-.container-footer {
-  display: flex;
-  align-items: baseline;
-  flex-direction: column;
-  gap: 72px;
-}
-
 .footer-svg {
   fill: #f4f4fd;
 }
 
 /* Footer form */
-
-.footer-icons {
-  margin-right: 80px;
-}
 
 .footer-form {
   margin-left: auto;
@@ -759,6 +764,7 @@ button {
 
 .form-mail {
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 
