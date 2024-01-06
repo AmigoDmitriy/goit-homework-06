@@ -668,6 +668,8 @@ button {
     display: flex;
     flex-wrap: wrap;
     text-align: left;
+    flex-direction: row;
+    gap: 24px;
   }
 }
 
@@ -722,7 +724,8 @@ button {
 
 @media only screen and (min-width: 768px) {
   .footer-icons {
-    max-width: 208px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -749,6 +752,14 @@ button {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
   text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-socials-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
 }
 
 .item-link-footer {
