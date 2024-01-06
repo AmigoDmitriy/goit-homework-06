@@ -685,6 +685,18 @@ button {
   }
 }
 
+@media only screen and (min-width: 1158px) {
+  .logo-block {
+    margin-right: 120px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .footer-icons {
+    margin-right: auto;
+  }
+}
+
 .link-footer {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
