@@ -973,7 +973,9 @@ button {
 }
 
 .modal-caption {
-  width: 360px;
+  /* width: 360px; */
+
+  width: 256px;
   margin-bottom: 16px;
 
   color: #2e2f42;
@@ -983,6 +985,13 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding-right: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .modal-caption {
+    width: 360px;
+  }
 }
 
 .container-comment {
