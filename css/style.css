@@ -154,6 +154,11 @@ button {
   padding-bottom: 16px;
 }
 
+@media only screen and (min-width: 1158px) {
+   {
+  }
+}
+
 .nav-list {
   list-style-type: none;
   font-weight: 500;
