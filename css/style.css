@@ -365,7 +365,7 @@ button {
 @media screen and (min-width: 768px) {
   /* Tablet devices */
   .advantages-item {
-    max-width: 288px;
+    max-width: 356px;
     width: calc(100%-24px * 1) / 2;
   }
   .text-advantages {
@@ -374,6 +374,12 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 356px;
+  }
+  .section-advantages-list {
+    gap: 72px 24px;
+  }
+  .title-three {
+    text-align: left;
   }
 }
 
