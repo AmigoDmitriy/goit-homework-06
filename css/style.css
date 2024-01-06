@@ -697,8 +697,7 @@ button {
 }
 
 .footer-icons {
-  justify-content: center;
-  /* margin-right: 80px; */
+  padding-left: 40px;
 }
 
 .footer-icons-list {
