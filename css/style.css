@@ -142,6 +142,12 @@ ul {
   margin: auto;
 }
 
+@media screen and (max-width: 767.98px) {
+  .nav-list,
+  .adress-list {
+    display: none;
+  }
+}
 .nav-list .link {
   color: #2e2f42;
   padding-top: 24px;
@@ -336,8 +342,6 @@ ul {
 
 @media screen and (min-width: 768px) {
   .advantages-item {
-    width: 356px;
-
     width: calc(100%-24px * 1) / 2;
   }
 }
