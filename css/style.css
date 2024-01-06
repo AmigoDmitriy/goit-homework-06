@@ -107,6 +107,7 @@ ul {
 .navigation {
   display: flex;
   align-items: center;
+  flex-grow: 1;
 }
 
 .adress {
@@ -132,6 +133,8 @@ ul {
   text-decoration: none;
   list-style-type: none;
   margin-right: 76px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .nav-list {
@@ -1137,4 +1140,22 @@ ul {
 
 .mobile-menu-contacts {
   margin-bottom: 48px;
+}
+
+/* Mobile menu  */
+
+.menu-btn-burger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: none;
+
+  margin-left: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-btn-burger {
+    display: none;
+  }
 }
