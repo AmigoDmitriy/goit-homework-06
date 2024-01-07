@@ -673,7 +673,7 @@ button {
     flex-wrap: wrap;
     text-align: left;
     flex-direction: row;
-    gap: 24px;
+    gap: 72px 24px;
   }
 }
 
