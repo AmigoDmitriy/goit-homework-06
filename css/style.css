@@ -44,6 +44,7 @@ a {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 button {
@@ -643,6 +644,7 @@ button {
 @media screen and (min-width: 1158px) {
   .item-list {
     width: calc((100% - 48px) / 3);
+    box-shadow: none;
   }
 }
 
