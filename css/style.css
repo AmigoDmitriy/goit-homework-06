@@ -349,6 +349,7 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .text-advantages {
@@ -600,7 +601,7 @@ button {
   margin-bottom: 72px;
 }
 
-.title-portfolio .title-three {
+.title-portfolio .title-section-four {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.5;
