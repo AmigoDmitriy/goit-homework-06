@@ -385,8 +385,7 @@ button {
 @media screen and (min-width: 768px) {
   /* Tablet devices */
   .advantages-item {
-    max-width: 356px;
-    width: calc(100%-24px * 1) / 2;
+    width: calc((100%-24px * 1) / 2);
   }
   .text-advantages {
     color: #434455;
@@ -529,6 +528,7 @@ button {
   .section-three-list {
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 64px 24px;
   }
   .page {
     /* width: calc((100% - 24px * 1) / 2); */
@@ -635,6 +635,7 @@ button {
 @media screen and (min-width: 768px) {
   .portfolio-list {
     justify-content: center;
+    row-gap: 72px;
   }
   .item-list {
     width: calc((100% - 24px * 1) / 2);
