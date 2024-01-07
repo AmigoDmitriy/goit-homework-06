@@ -271,6 +271,13 @@ button {
   margin: 0 auto 48px;
 }
 
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 56px;
+    line-height: 1.07;
+  }
+}
+
 .button-order {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
