@@ -180,17 +180,13 @@ button {
   display: flex;
   gap: 40px;
   margin: auto;
+  margin: 0;
 }
 
 @media only screen and (max-width: 767.98px) {
   .nav-list,
   .adress-list {
     display: none;
-  }
-}
-@media only screen and (min-width: 1158px) {
-  .nav-list {
-    margin: 0;
   }
 }
 
@@ -388,7 +384,7 @@ button {
 @media screen and (min-width: 768px) {
   /* Tablet devices */
   .advantages-item {
-    width: calc((100%-24px * 1) / 2);
+    width: calc((100% - 24px * 1) / 2);
   }
   .text-advantages {
     color: #434455;
@@ -407,8 +403,7 @@ button {
 
 @media screen and (min-width: 1158px) {
   .advantages-item {
-    max-width: 264px;
-    width: calc(100%-24px * 3) / 4;
+    width: calc((100% - 24px * 3) / 4);
   }
   .title-three {
     color: #2e2f42;
